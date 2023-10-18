@@ -65,6 +65,15 @@ public class CalculatorScript : MonoBehaviour
 
         }
         }
+         public void Cleared()
+    {
+        Value.text = "";
+        Amount.text = "";
+        USDollar.isOn = false;
+        JapanseseYen.isOn = false;
+        
+    }
+        
 
      
 }
